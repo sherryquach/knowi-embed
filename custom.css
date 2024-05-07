@@ -42,3 +42,5 @@
 .webix_row_select:focus, .webix_cell:focus {
     outline: none;
 }
+
+div.webix_ss_header > div.webix_hs_center > div > div:nth-child(2) > div > div{display:none;}
