@@ -1,4 +1,4 @@
-<style>
+
 .webix_view.webix_dtable.default-datagrid-colors .webix_ss_header .webix_hs_center [class*="webix_ss_sort"]::before {
     box-shadow: 0 0 1px 1px #d2e3ef;
 }
@@ -42,4 +42,3 @@
 .webix_row_select:focus, .webix_cell:focus {
     outline: none;
 }
-</style>
