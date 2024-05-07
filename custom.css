@@ -1,3 +1,4 @@
+<style>
 .webix_view.webix_dtable.default-datagrid-colors .webix_ss_header .webix_hs_center [class*="webix_ss_sort"]::before {
     box-shadow: 0 0 1px 1px #d2e3ef;
 }
@@ -45,3 +46,4 @@
 div.webix_ss_header > div.webix_hs_center > div > div:nth-child(2) > div > div {
     display:none;
 }
+</style>
