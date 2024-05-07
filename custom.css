@@ -1,0 +1,44 @@
+
+.webix_view.webix_dtable.default-datagrid-colors .webix_ss_header .webix_hs_center [class*="webix_ss_sort"]::before {
+    box-shadow: 0 0 1px 1px #d2e3ef;
+}
+
+/* CSS to customize the open triangle to point downwards */
+.webix_tree_open::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 6px 0 6px; /* Adjust size here */
+    border-color: #000 transparent transparent transparent; /* Triangle pointing down */
+    margin-right: 5px; /* Space before the label */
+    vertical-align: middle; /* Ensures alignment does not disrupt text */
+}
+
+/* CSS to customize the closed triangle to point right */
+.webix_tree_close::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px; /* Adjust size here */
+    border-color: transparent transparent transparent #000; /* Triangle pointing right */
+    margin-right: 5px;
+    vertical-align: middle; /* Consistent vertical alignment */
+}
+
+/* CSS to increase the text size in the tree or treetable */
+.webix_cell, .webix_tree_item .webix_group_name {
+    font-size: 30px; /* Adjust size as needed */
+}
+
+/* Ensure that the custom styles for triangles don't affect text alignment */
+.webix_tree_open::before, .webix_tree_close::before {
+    vertical-align: middle;
+}
+
+.webix_row_select:focus, .webix_cell:focus {
+    outline: none;
+}
